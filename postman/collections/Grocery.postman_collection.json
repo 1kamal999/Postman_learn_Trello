@@ -54,6 +54,7 @@
                   "    pm.response.to.have.status(200);\r",
                   "});\r",
                   "\r",
+                  "//to check product is avaible in stock 01/23/2026\r",
                   "\r",
                   "pm.test(\"At least one product available.\", function () {\r",
                   "    all_prod_response =pm.response.json()\r",
@@ -82,6 +83,18 @@
                 "packages": {},
                 "requests": {}
               }
+            },
+            {
+              "listen": "prerequest",
+              "script": {
+                "id": "581fe4f1-5659-4761-82c3-e983a73d6c83",
+                "exec": [
+                  ""
+                ],
+                "type": "text/javascript",
+                "packages": {},
+                "requests": {}
+              }
             }
           ],
           "id": "dac61a3b-45f4-4046-b997-6833943b1680",
@@ -99,7 +112,8 @@
               "query": [
                 {
                   "key": "",
-                  "value": null
+                  "value": null,
+                  "uuid": "62ffbc77-b954-4906-9b12-ca2a93c97589"
                 }
               ]
             }
@@ -994,21 +1008,6 @@
           "item": [
             {
               "name": "Create an Order Missing Auth",
-              "event": [
-                {
-                  "listen": "test",
-                  "script": {
-                    "id": "97211a6e-2b56-43dc-9484-5adcf3d8c468",
-                    "exec": [
-                      "\r",
-                      ""
-                    ],
-                    "type": "text/javascript",
-                    "packages": {},
-                    "requests": {}
-                  }
-                }
-              ],
               "id": "b9ce8810-1d8d-43fb-9276-1ac167019e42",
               "request": {
                 "auth": {
@@ -1081,23 +1080,6 @@
           "item": [
             {
               "name": "Create an Order Invalid Auth",
-              "event": [
-                {
-                  "listen": "test",
-                  "script": {
-                    "id": "97211a6e-2b56-43dc-9484-5adcf3d8c468",
-                    "exec": [
-                      "\r",
-                      "\r",
-                      "\r",
-                      ""
-                    ],
-                    "type": "text/javascript",
-                    "packages": {},
-                    "requests": {}
-                  }
-                }
-              ],
               "id": "ead19890-2a25-4f75-b312-f93af99676f5",
               "request": {
                 "auth": {
@@ -1266,32 +1248,6 @@
         }
       ],
       "id": "a8de466b-6151-4715-abde-902a349284e7"
-    }
-  ],
-  "event": [
-    {
-      "listen": "prerequest",
-      "script": {
-        "id": "8b5d7c20-a463-4b03-905b-f31d1b27ba11",
-        "type": "text/javascript",
-        "packages": {},
-        "requests": {},
-        "exec": [
-          ""
-        ]
-      }
-    },
-    {
-      "listen": "test",
-      "script": {
-        "id": "8e5fc672-28a8-41d6-9310-f9f8fec54fec",
-        "type": "text/javascript",
-        "packages": {},
-        "requests": {},
-        "exec": [
-          ""
-        ]
-      }
     }
   ]
 }
