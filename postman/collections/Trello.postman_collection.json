@@ -996,54 +996,54 @@
   ],
   "variable": [
     {
-      "id": "b799919a-4514-4617-8014-e4de4247406d",
+      "id": "149aaae4-43d1-410b-9ce1-2ed525558dfb",
       "key": "Trello Base Url",
       "value": "https://api.trello.com"
     },
     {
-      "id": "06427ef7-b9f4-4ad3-9f5a-14e60fea9ce9",
+      "id": "41e1e3ed-f200-450a-b5b5-71ce9c6530cd",
       "key": "Trello API Key",
       "value": "482410906e3cca87f941259b20385b5e"
     },
     {
-      "id": "f64e0917-07f6-4321-9d54-67f3c326f364",
+      "id": "4595188b-df1b-4361-b597-6ad17f0d438d",
       "key": "Trello token",
       "value": "ATTA23c0c4bde7a7dbf46667e9755561e5af1285545d9c7e846be1ac681fa559763c78A43B93"
     },
     {
-      "id": "8ab4b1e5-5a40-4278-9ead-85927403c024",
+      "id": "5565237d-6f18-4757-b40e-4cefd1987d99",
       "key": "board_id",
       "value": "6939af3eb619915667687787"
     },
     {
-      "id": "a0d07953-a566-4243-b3dd-2f58080d369d",
+      "id": "82d5f446-a4d6-4c3b-beb4-dd5a60760cdc",
       "key": "todoListId",
       "value": "6939b6075a77318c5679d8cc"
     },
     {
-      "id": "05c121ab-1d13-4581-8ef7-69f577985d37",
+      "id": "3a697cf2-aad5-4ff7-b1a3-baca3e138c1f",
       "key": "doneListId",
       "value": "6939ba263127f12e739ba18f"
     },
     {
-      "id": "cf4a2829-fd22-486f-bcdb-3e56288035ea",
+      "id": "f6a5c025-464c-44e1-b44f-52bf586e0521",
       "key": "CardId",
       "value": "6939c29764346c97bb2014d4"
     },
     {
-      "id": "f034fb4c-29e1-4f62-b6b4-952920cbbbdb",
+      "id": "2c4308c0-48c9-4ad7-881c-c3c82e262c36",
       "key": "all_boards_ids",
       "value": [
         "6939af3eb619915667687787"
       ]
     },
     {
-      "id": "bfda0324-947d-41a5-bb59-ad6702aaac22",
+      "id": "10731a20-fdca-4487-ae0b-96ae1f459d9f",
       "key": "id_all",
       "value": null
     },
     {
-      "id": "da07750a-8180-4387-95bc-8ea9f6cb4b0e",
+      "id": "e0b10486-cc22-4af3-b717-4a3f3c0c8db5",
       "key": "boardNumber",
       "value": 8
     }
